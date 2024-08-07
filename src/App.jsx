@@ -1,8 +1,12 @@
 // src/App.jsx
 
+import Shop from "./components/Shop/Shop";
+import "./App.css";
+
 const App = () => {
-  return(<>
-  <h1>Hello World</h1>
+  return(
+  <>
+    <Shop />
   </>);
 };
 
